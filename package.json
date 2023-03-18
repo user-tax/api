@@ -2,13 +2,13 @@
   "name": "@user.tax/api",
   "type": "module",
   "devDependencies": {
-    "@u7/i18n": "^0.0.61",
+    "@w5/i18n": "^0.0.61",
     "@u7/yml": "^0.0.5",
     "chokidar": "^3.5.3",
-    "coffee_plus": "^0.0.55",
+    "coffee_plus": "^0.0.58",
     "coffeescript": "^2.7.0",
     "concurrently": "^7.6.0",
-    "esbuild": "^0.17.11"
+    "esbuild": "^0.17.12"
   },
   "dependencies": {
     "!": "link:./lib",
@@ -33,7 +33,7 @@
     "ua-parser-js": "^1.0.34",
     "ulb": "^0.0.1",
     "utax": "^0.0.50",
-    "zx": "^7.2.0"
+    "zx": "^7.2.1"
   },
   "version": "0.0.0",
   "license": "Apache‑2.0",
