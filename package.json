@@ -2,7 +2,7 @@
   "name": "@user.tax/api",
   "type": "module",
   "devDependencies": {
-    "@w5/i18n": "^0.0.76",
+    "@w5/i18n": "^0.0.79",
     "@u7/yml": "^0.0.5",
     "chokidar": "^3.5.3",
     "coffee_plus": "^0.0.58",

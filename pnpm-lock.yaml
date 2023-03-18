@@ -13,7 +13,7 @@ specifiers:
   '@u7/wasm-set': ^0.0.9
   '@u7/write': ^0.0.9
   '@u7/yml': ^0.0.5
-  '@w5/i18n': ^0.0.76
+  '@w5/i18n': ^0.0.79
   _: link:./lib/_
   chalk: ^5.2.0
   chokidar: ^3.5.3
@@ -59,7 +59,7 @@ dependencies:
 
 devDependencies:
   '@u7/yml': 0.0.5
-  '@w5/i18n': 0.0.76
+  '@w5/i18n': 0.0.79
   chokidar: 3.5.3
   coffee_plus: 0.0.58
   coffeescript: 2.7.0
@@ -508,8 +508,15 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@w5/i18n/0.0.76:
-    resolution: {integrity: sha512-ZYNwKi/J2cWy/02Vhodsf6Ucdtw5IgnfBcRKakqBMAc0WaQlHGlIwrWZW0j/SIyf+v6BnKMy4rdPoBv6BF64xw==}
+  /@w5/bar/0.0.3:
+    resolution: {integrity: sha512-EmUK+0ufdwIbwFUFUi7lmDLxlvFNWLtE4Rq/VLsKpafC5auHLtHh9+7X3TcidfRa5nj87mbxUhMBhrvkJb0Yww==}
+    dependencies:
+      chalk: 5.2.0
+      progress: 2.0.3
+    dev: true
+
+  /@w5/i18n/0.0.79:
+    resolution: {integrity: sha512-RRCirEWOB5AnQkjMK/gUFTFGW9NN/yfsT6yH/6Lai+TTPtW6H1lmXH7N2a2E9zLQDM5xqFkcGDl3CKvL1rEb7w==}
     hasBin: true
     dependencies:
       '@u6x/jsext': 0.0.27
@@ -526,7 +533,7 @@ packages:
       '@u7/xxhash3-wasm': 0.0.15
       '@u7/yml': 0.0.5
       '@w5/lang': 0.0.5
-      '@w5/trmd': 0.0.10
+      '@w5/trmd': 0.0.13
       chalk: 5.2.0
       cmark-gfm: 0.9.0
       get_default: 0.0.4
@@ -557,8 +564,8 @@ packages:
     resolution: {integrity: sha512-Yqs0nTOQvxrEXURkFEbxMKUyxFC0dn9+kQLHsWve2JMLtQfV9xN+NaEgcJj3LqaciwoIDfURjRlitWyVnCXIig==}
     dev: true
 
-  /@w5/trmd/0.0.10:
-    resolution: {integrity: sha512-KV12m4MrBO8jldXYZo7bA1yPArnwachEvK1WoS0WjEIe8dXoDRpmT2qC6SaK4aKYiYjLrnlfC7WYrbRlUi++gQ==}
+  /@w5/trmd/0.0.13:
+    resolution: {integrity: sha512-FpGdlR13LMcs2a+K1sB9NvxV7HxV3hVPgG08mmFBvufbXQ2hnEwZquSiJA9SNEVQZrV4HobAocpFseahb3fkmg==}
     dependencies:
       '@u7/binmap': 0.0.11
       '@u7/blake3': 0.0.2
@@ -570,6 +577,7 @@ packages:
       '@u7/utf8': 0.0.4
       '@u7/walk': 0.0.10
       '@u7/write': 0.0.9
+      '@w5/bar': 0.0.3
       '@w5/j2f': 0.0.1
       better-sqlite3: 8.2.0
       knex: 2.4.2_better-sqlite3@8.2.0
